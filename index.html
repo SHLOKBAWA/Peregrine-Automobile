@@ -1,0 +1,711 @@
+<!doctype html>
+<html>
+<head>
+      <meta charset="UTF-8">
+      <title>Home </title>
+      <meta name="description" content="Scarica gratis il nostro Template HTML/CSS GARAGE. Se avete bisogno di un design per il vostro sito web GARAGE può fare per voi. Web Domus Italia">
+      <meta name="author" content="Web Domus Italia">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="source/bootstrap-3.3.6-dist/css/bootstrap.css">
+      <link rel="stylesheet" type="text/css" href="source/font-awesome-4.5.0/css/font-awesome.css">
+      <link rel="stylesheet" type="text/css" href="style/slider.css">
+      <link rel="stylesheet" type="text/css" href="style/mystyle.css">
+</head>
+<body>
+<!-- Header -->
+
+<div class="allcontain">
+      <div class="header">
+                  <ul class="socialicon">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                  </ul>
+                  <ul class="givusacall">
+                        <li>Give us a call : +66666666 </li>
+                  </ul>
+                  <ul class="logreg" id="user">
+                       
+                  </ul>
+      </div>
+      <!-- Navbar Up -->
+      <nav class="topnavbar navbar-default topnav">
+            <div class="container">
+                  <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed toggle-costume" data-toggle="collapse" data-target="#upmenu" aria-expanded="false">
+                              <span class="sr-only"> Toggle navigaion</span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand logo" href="#"><img src="image/logo1.png" alt="logo"></a>
+                  </div>       
+            </div>
+            <div class="collapse navbar-collapse" id="upmenu">
+                  <ul class="nav navbar-nav" id="navbarontop">
+                        <li class="active"><a href="#">HOME</a> </li>
+                        <li>
+                              <a href="carworth.html">WHAT'S MY CAR WORTH?</a>
+                        </li>
+                        <li>
+                              <a href="browsecars.html">BROWSE CARS</a>
+                        </li>
+                        <li>
+                              <a href="accessories.html">ACCESSORIES</a>
+                        </li>
+                        <li>
+                              <a href="appointment.html">BOOK AN APPOINTMENT</a>
+                        </li>
+                        <li>
+                              <a href="aboutus.html">ABOUT</a>
+                        </li>
+                        <li>
+                              <a href="contact.html">CONTACT US</a>
+ 
+                        </li>
+                        <li style="margin-left: 20px; margin-top: 5px;  cursor: pointer">  
+                         <span class="glyphicon glyphicon-shopping-cart my-cart-icon">
+                               <span class="badge badge-notify my-cart-badge">0</span></span>
+            
+                        </li>
+                  </ul>
+            </div>
+      </nav>
+</div>
+<!--_______________________________________ Carousel__________________________________ -->
+<div class="allcontain">
+      <div id="carousel-up" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner " role="listbox">
+                  <div class="item active">
+                        <img src="image/oldcar.jpg" alt="oldcar">
+                        <div class="carousel-caption">
+                              <h2>Porsche 356</h2>
+                              <p><br>
+                                  SCROLL DOWN FOR MORE</p>
+                        </div>
+                  </div>
+            
+            </div>
+            <nav class="navbar navbar-default midle-nav">
+                  <form class="form-horizontal" style="margin-left:25px;margin-top: 25px;" id="searchForm">
+                        <div class="row">
+                              <div class="col-md-1">
+                                    <div class="form-group" style="margin-left: 25px;">
+                                          <input type="text" class="form-control form-control-sm" name="carName" id="search" 
+                                          class="login-form-field" placeholder="Search">
+                                    </div>
+                              </div>
+                              <div class="col-md-1">
+                                    <div class="form-group" style="margin-left: 25px;">
+                                          <select id="max year" name="age" class="form-control">
+                                                      <option value="" >Age</option>
+                                                      <option value="EPIC">EPIC</option>
+                                                      <option value="OLD">OLD</option>
+                                                      <option value="NEW">NEW</option>
+                                      </select>
+                                    </div>
+                              </div>
+                              <div class="col-md-1">
+                                    <div class="form-group" style="margin-left: 25px;">
+                                          <select  name="minAge" class="form-control">
+                                                     <option value="" >Min Year</option>
+                                                      <option value="1999">1999</option>
+                                                      <option value="2000">2000</option>
+                                                      <option value="2016">2016</option>
+                                          </select> 
+                                    </div> 
+                              </div>
+                              <div class="col-md-1">
+                                    <div class="form-group" style="margin-left: 25px;">
+                                          <select  name="maxAge" class="form-control">
+                                                     <option value="">Max Year</option>
+                                                      <option value="1999">1999</option>
+                                                      <option value="2000">2000</option>
+                                                      <option value="2016">2016</option>
+                                          </select> 
+                                    </div> 
+                              </div>
+                              <div class="col-md-1">
+                                    <div class="form-group" style="margin-left: 25px;">
+                                          <select  name="price" class="form-control">
+                                                     <option value="">Price</option>
+                                                     <option value="1000">1000 CAD</option>
+                                                      <option value="2000">2000 CAD</option>
+                                                      <option value="3000">3000 CAD</option>
+                                    
+                                          </select> 
+                                    </div> 
+                              </div>
+                              <div class="col-md-2">
+                                    <div class="form-group" style="margin-left: 25px;">
+                                          <input type="text" class="form-control form-control-sm"  id="kmDriven"  name="kmDriven"
+                                           placeholder="Kilometres Driven">
+                                    </div>
+                              </div>
+                              <div class="col-md-1">
+                                    <button class="btn btn-success" style="margin-left: 25px;" id="searchButton">Search</button>
+                              </div>
+
+                        </div>
+                        
+                        
+                  </form>
+ 
+                  </div>
+            </nav>
+      </div>
+</div>
+<!-- ____________________Featured Section ______________________________--> 
+
+
+<div class="allcontain">
+      <div class="row">
+            <div class="feturedsection">
+                  <h1 class="text-center"><span class="bdots">&bullet;</span>F E A T U R E D<span class="carstxt">C A R S</span>&bullet;</h1>
+            </div>
+            <div class="feturedimage">
+                  <div class="row firstrow">
+                        <div class="col-lg-6 costumcol colborder1">
+                              <div class="row costumrow">
+                                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img1colon">
+                                          <img src="./image/featurporch.jpg" alt="porsche">
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 txt1colon ">
+                                          <div class="featurecontant">
+                                                <h1>PORSCHE 550</h1>
+                                                <p>1955 Convertible Model<br>
+                                                            One unit in stock</p>
+                                                <h2>Price 47,000 CAD;</h2>
+                                                <button id="btnRM" onclick="rmtxt()">READ MORE</button>
+                                                <div id="readmore">
+                                                            <h1>1955 Porsche 550 Spyder</h1>
+                                                            <p>Spec Sheet:<br><br>
+                                                            1.2L 4 cylinder, Naturally Aspirated Engine <br>
+                                                            127 BHP<br>
+                                                            Color: Aluminium<br>
+                                                            This racing sports car is an absolute legend, the Porsche 550 having won the first Nurburgring racing event it entered back in 1953<br>
+                                                            </p>
+                                                            <button id="btnRL">READ LESS</button>
+                                                </div>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-lg-6 costumcol colborder2">
+                              <div class="row costumrow">
+                                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img2colon">
+                                          <img src="./image/featurporch1.jpg" alt="porsche1">
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 txt1colon ">
+                                          <div class="featurecontant">
+                                                <h1>PORSCHE 912</h1>
+                                                <p>1969 COUPE MODEL<br>
+                                                      Two units in stock </p>
+                                                <h2>Price 41,000 CAD;</h2>
+                                                <button id="btnRM2">READ MORE</button>
+                                                <div id="readmore2">
+                                                      <h1>1969 Porsche 912</h1>
+                                                      <p>Spec Sheet<br><br>
+                                                      1.4l Flat 4, Naturally Aspirated Engine <br>
+                                                      140 BHP<br>
+                                                      Color: Black<br>
+                                                      This little coupe is a revelation to drive, Porsche's entry-level offering of the famed 911 series. It is nimble, lightweight and lightning quick!<br>
+                                                      </p>
+                                                            <button id="btnRL2">READ LESS</button>
+                                                </div>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
+<div class="row">
+      <div class="latestcars">
+            <h1 class="text-center">&bullet; LATEST   CARS &bullet;</h1>
+            <ul class="nav nav-tabs navbar-left latest-navleft">
+                  <li role="presentation" class="li-sortby"><span class="sortby">SORT BY: </span></li>
+                  <li data-filter=".RECENT" role="presentation"><a href="#mostrecent" class="prcBtnR">MOST RECENT </a></li>
+                  <li data-filter=".POPULAR" role="presentation"><a href="#mostpopular" class="prcBtnR">MOST POPULAR </a></li>
+                  <li  role="presentation"><a href="#" class="alphSort">ALPHABETICAL </a></li>
+                  <li data-filter=".HPRICE" role="presentation"><a href="#" class="prcBtnH">HIGHEST PRICE </a></li>
+                  <li data-filter=".LPRICE" role="presentation"><a href="#" class="prcBtnL">LOWEST  PRICE </a></li>
+                  <li id="hideonmobile">
+            </ul>
+      </div>
+</div>
+<!-- ________________________LATEST CARS SECTION _______________________-->
+<br>
+<!-- ________________________Latest Cars Image Thumbnail________________-->
+    
+            <div class="row">
+                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card">
+                              <div class="card-body" style="margin:15px; border-radius: 15px;">
+                                    <div class="txthover">
+                                          <img src="./image/car1.jpg" alt="car1">
+                                                <div class="txtcontent">
+                                                      <div class="stars">
+                                                            <div class="glyphicon glyphicon-star"></div>
+                                                            <div class="glyphicon glyphicon-star"></div>
+                                                            <div class="glyphicon glyphicon-star"></div>
+                                                      </div>
+                                                      <div class="simpletxt">
+                                                            <h3 class="name">Rolls Royce Phantom II</h3>
+                                                            <p>1935 "Blue Baron" Convertible</p>
+                                                            <h4 class="price"> 80,000 CAD</h4>
+                                                            <button onclick="carDetails('./image/car1.jpg','80,000 CAD','Rolls Royce Phantom II')">READ MORE</button>
+                                                            <div class="wishtxt">
+                                                                  <p class="paragraph1">Add to Wishlist <span class="glyphicon glyphicon-heart"></span> </p>
+                                                                  <p class="paragraph2">Compare <span class="icon"><img src="./image/compicon.png" alt="compicon"></span></p>
+                                                            </div>
+                                                      </div>
+                                                      <div class="stars2">
+                                                            <div class="glyphicon glyphicon-star"></div>
+                                                            <div class="glyphicon glyphicon-star"></div>
+                                                            <div class="glyphicon glyphicon-star"></div>
+                                                      </div>
+                                                </div>
+                                    </div> 
+                              </div>
+                        </div>
+                            
+                  </div>
+                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 ">
+                        <div class="card">
+                              <div class="card-body" style="margin:15px; border-radius: 15px;">
+                        <div class="txthover">
+                              <img src="./image/car2.jpg" alt="car2">
+                                    <div class="txtcontent">
+                                          <div class="stars">
+                                                <div class="glyphicon glyphicon-star"></div>
+                                                <div class="glyphicon glyphicon-star"></div>
+                                                <div class="glyphicon glyphicon-star"></div>
+                                          </div>
+                                          <div class="simpletxt">
+                                                <h3 class="name">Porsche 912</h3>
+                                                <p>
+                                                1970 "Old Lady" Coupe</p>
+                                                <h4 class="price">30,000 CAD</h4>
+                                                <button  onclick="carDetails('./image/car2.jpg','30,000 CAD','Porsche 912')">READ MORE</button>
+                                                <div class="wishtxt">
+                                                      <p class="paragraph1"> Add to Wishlist <span class="glyphicon glyphicon-heart"></span> </p>
+                                                      <p class="paragraph2">Compare <span class="icon"><img src="./image/compicon.png" alt="compicon"></span></p>
+                                                </div>
+                                          </div>
+                                          <div class="stars2">
+                                                <div class="glyphicon glyphicon-star"></div>
+                                                <div class="glyphicon glyphicon-star"></div>
+                                                <div class="glyphicon glyphicon-star"></div>
+                                          </div>
+                                    </div>
+                        </div>
+                        </div>
+                        </div>       
+                  </div>
+                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card">
+                              <div class="card-body" style="margin:15px; border-radius: 15px;">
+                        <div class="txthover">
+                              <img src="./image/car3.jpg" alt="car3">
+                                    <div class="txtcontent">
+                                          <div class="stars">
+                                                <div class="glyphicon glyphicon-star"></div>
+                                                <div class="glyphicon glyphicon-star"></div>
+                                                <div class="glyphicon glyphicon-star"></div>
+                                          </div>
+                                          <div class="simpletxt">
+                                                <h3 class="name">Ford Mustang</h3>
+                                                <p>1967 Mustang Fastback</p>
+                                                <h4 class="price">43,090 CAD</h4>
+                                                <button  onclick="carDetails('./image/car3.jpg','43,090 CAD','Ford Mustang')">READ MORE</button>
+                                                <div class="wishtxt">
+                                                      <p class="paragraph1"> Add to Wishlist <span class="glyphicon glyphicon-heart"></span> </p>
+                                                      <p class="paragraph2">Compare <span class="icon"><img src="./image/compicon.png" alt="compicon"></span></p>
+                                                </div>
+                                          </div>
+                                          <div class="stars2">
+                                                <div class="glyphicon glyphicon-star"></div>
+                                                <div class="glyphicon glyphicon-star"></div>
+                                                <div class="glyphicon glyphicon-star"></div>
+                                          </div>
+                                    </div>
+                        </div>
+                        </div>
+                        </div>       
+                  </div>
+                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card">
+                              <div class="card-body" style="margin:15px; border-radius: 15px;">
+                        <div class="txthover">
+                              <img src="./image/car4.jpg" alt="car4">
+                                    <div class="txtcontent">
+                                          <div class="stars">
+                                                <div class="glyphicon glyphicon-star"></div>
+                                                <div class="glyphicon glyphicon-star"></div>
+                                                <div class="glyphicon glyphicon-star"></div>
+                                          </div>
+                                          <div class="simpletxt">
+                                                <h3 class="name">Jaguar XK150</h3>
+                                                <p>1959 "Drophead" Coupe</p>
+                                                <h4 class="price">69,420 CAD</h4>
+                                                <button onclick="carDetails('./image/car4.jpg','69,420 CAD','Jaguar XK150')">READ MORE</button>
+                                                <div class="wishtxt">
+                                                      <p class="paragraph1"> Add to Wishlist <span class="glyphicon glyphicon-heart"></span> </p>
+                                                      <p class="paragraph2">Compare <span class="icon"><img src="./image/compicon.png" alt="compicon"></span></p>
+                                                </div>
+                                          </div>
+                                          <div class="stars2">
+                                                <div class="glyphicon glyphicon-star"></div>
+                                                <div class="glyphicon glyphicon-star"></div>
+                                                <div class="glyphicon glyphicon-star"></div>
+                                          </div>
+                                    </div>
+                        </div> 
+                        </div>
+                        </div>      
+                  </div>
+                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card">
+                              <div class="card-body" style="margin:15px; border-radius: 15px;">
+                        <div class="txthover">
+                              <img src="./image/car5.jpg" alt="car5">
+                                    <div class="txtcontent">
+                                          <div class="stars">
+                                                <div class="glyphicon glyphicon-star"></div>
+                                                <div class="glyphicon glyphicon-star"></div>
+                                                <div class="glyphicon glyphicon-star"></div>
+                                          </div>
+                                          <div class="simpletxt">
+                                                <h3 class="name">Porsche 550</h3>
+                                                <p>1954 Spyder Convertible</p>
+                                                <h4 class="price">41,200 CAD</h4>
+                                                <button onclick="carDetails('./image/car5.jpg','41,200 CAD','Porsche 550')">READ MORE</button>
+                                                <div class="wishtxt">
+                                                      <p class="paragraph1"> Add to Wishlist <span class="glyphicon glyphicon-heart"></span> </p>
+                                                      <p class="paragraph2">Compare <span class="icon"><img src="./image/compicon.png" alt="compicon"></span></p>
+                                                </div>
+                                          </div>
+                                          <div class="stars2">
+                                                <div class="glyphicon glyphicon-star"></div>
+                                                <div class="glyphicon glyphicon-star"></div>
+                                                <div class="glyphicon glyphicon-star"></div>
+                                          </div>
+                                    </div>
+                        </div>  
+                        </div>
+                        </div>     
+                  </div>
+                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card">
+                              <div class="card-body" style="margin:15px; border-radius: 15px;">
+                        <div class="txthover">
+                              <img src="./image/car6.jpg" alt="car6">
+                                    <div class="txtcontent">
+                                          <div class="stars">
+                                                <div class="glyphicon glyphicon-star"></div>
+                                                <div class="glyphicon glyphicon-star"></div>
+                                                <div class="glyphicon glyphicon-star"></div>
+                                          </div>
+                                          <div class="simpletxt">
+                                                <h3 class="name">Porche 911 Singer</h3>
+                                                <p>1973 Carrera RSR Coupe, Gold</p>
+                                                <h4 class="price">73,000 CAD</h4>
+                                                <button onclick="carDetails('./image/car6.jpg','73,000 CAD','Porche 911 Singer')">READ MORE</button>
+                                                <div class="wishtxt">
+                                                      <p class="paragraph1"> Add to Wishlist <span class="glyphicon glyphicon-heart"></span> </p>
+                                                      <p class="paragraph2">Compare <span class="icon"><img src="./image/compicon.png" alt="compicon"></span></p>
+                                                </div>
+                                          </div>
+                                          <div class="stars2">
+                                                <div class="glyphicon glyphicon-star"></div>
+                                                <div class="glyphicon glyphicon-star"></div>
+                                                <div class="glyphicon glyphicon-star"></div>
+                                          </div>
+                                    </div>
+                        </div> 
+                        </div>
+                        </div>      
+                  </div>
+                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card">
+                              <div class="card-body" style="margin:15px; border-radius: 15px;">
+                        <div class="txthover">
+                              <img src="./image/car7.jpg" alt="car7">
+                                    <div class="txtcontent">
+                                          <div class="stars">
+                                                <div class="glyphicon glyphicon-star"></div>
+                                                <div class="glyphicon glyphicon-star"></div>
+                                                <div class="glyphicon glyphicon-star"></div>
+                                          </div>
+                                          <div class="simpletxt">
+                                                <h3 class="name">Jaguar E-Type</h3>
+                                                <p>1961 Coupe, Silver RestoMod
+                                                </p>
+                                                <h4 class="price">61,000 CAD</h4>
+                                                <button onclick="carDetails('./image/car7.jpg','61,000 CAD','Jaguar E-Type')">READ MORE</button>
+                                                <div class="wishtxt">
+                                                      <p class="paragraph1"> Add to Wishlist <span class="glyphicon glyphicon-heart"></span> </p>
+                                                      <p class="paragraph2">Compare <span class="icon"><img src="./image/compicon.png" alt="compicon"></span></p>
+                                                </div>
+                                          </div>
+                                          <div class="stars2">
+                                                <div class="glyphicon glyphicon-star"></div>
+                                                <div class="glyphicon glyphicon-star"></div>
+                                                <div class="glyphicon glyphicon-star"></div>
+                                          </div>
+                                    </div>
+                        </div> 
+                        </div>
+                        </div>      
+                  </div>
+                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card">
+                              <div class="card-body" style="margin:15px; border-radius: 15px;">
+                        <div class="txthover">
+                              <img src="./image/car8.jpg" alt="car8">
+                                    <div class="txtcontent">
+                                          <div class="stars">
+                                                <div class="glyphicon glyphicon-star"></div>
+                                                <div class="glyphicon glyphicon-star"></div>
+                                                <div class="glyphicon glyphicon-star"></div>
+                                          </div>
+                                          <div class="simpletxt">
+                                                <h3 class="name">Mercedes-Benz S-Class</h3>
+                                                <p>1960 Cabriolet
+                                                </p>
+                                                <h4 class="price">57,260 CAD</h4>
+                                                <button onclick="carDetails('image/car8.jpg','57,260 CAD','Mercedes-Benz S-Class')">READ MORE</button>
+                                                <div class="wishtxt">
+                                                      <p class="paragraph1"> Add to Wishlist <span class="glyphicon glyphicon-heart"></span> </p>
+                                                      <p class="paragraph2">Compare <span class="icon"><img src="./image/compicon.png" alt="compicon"></span></p>
+                                                </div>
+                                          </div>
+                                          <div class="stars2">
+                                                <div class="glyphicon glyphicon-star"></div>
+                                                <div class="glyphicon glyphicon-star"></div>
+                                                <div class="glyphicon glyphicon-star"></div>
+                                          </div>
+                                    </div>
+                        </div> 
+                        </div>
+                        </div>      
+                  </div>  
+                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card">
+                              <div class="card-body" style="margin:15px; border-radius: 15px;">
+                        <div class="txthover">
+                              <img src="./image/camaro.jpg" alt="car8">
+                                    <div class="txtcontent">
+                                          <div class="stars">
+                                                <div class="glyphicon glyphicon-star"></div>
+                                                <div class="glyphicon glyphicon-star"></div>
+                                                <div class="glyphicon glyphicon-star"></div>
+                                          </div>
+                                          <div class="simpletxt">
+                                                <h3 class="name">Camari</h3>
+                                                <p>1960 Cabriolet
+                                                </p>
+                                                <h4 class="price">60,260 CAD</h4>
+                                                <button onclick="carDetails('./image/camaro.jpg','60,260 CAD','Camari')">READ MORE</button>
+                                                <div class="wishtxt">
+                                                      <p class="paragraph1"> Add to Wishlist <span class="glyphicon glyphicon-heart"></span> </p>
+                                                      <p class="paragraph2">Compare <span class="icon"><img src="./image/compicon.png" alt="compicon"></span></p>
+                                                </div>
+                                          </div>
+                                          <div class="stars2">
+                                                <div class="glyphicon glyphicon-star"></div>
+                                                <div class="glyphicon glyphicon-star"></div>
+                                                <div class="glyphicon glyphicon-star"></div>
+                                          </div>
+                                    </div>
+                        </div>  
+                        </div>
+                        </div>     
+                  </div> 
+                   
+                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card">
+                              <div class="card-body" style="margin:15px; border-radius: 15px;">
+                        <div class="txthover">
+                              <img src="./image/supra.jpg" alt="car8">
+                                    <div class="txtcontent">
+                                          <div class="stars">
+                                                <div class="glyphicon glyphicon-star"></div>
+                                                <div class="glyphicon glyphicon-star"></div>
+                                                <div class="glyphicon glyphicon-star"></div>
+                                          </div>
+                                          <div class="simpletxt">
+                                                <h3 class="name">Supra Class Car</h3>
+                                                <p>1980 Cabriolet
+                                                </p>
+                                                <h4 class="price">90,260 CAD</h4>
+                                                <button onclick="carDetails('./image/supra.jpg','90,260 CAD','Supra Class Car')">READ MORE</button>
+                                                <div class="wishtxt">
+                                                      <p class="paragraph1"> Add to Wishlist <span class="glyphicon glyphicon-heart"></span> </p>
+                                                      <p class="paragraph2">Compare <span class="icon"><img src="./image/compicon.png" alt="compicon"></span></p>
+                                                </div>
+                                          </div>
+                                          <div class="stars2">
+                                                <div class="glyphicon glyphicon-star"></div>
+                                                <div class="glyphicon glyphicon-star"></div>
+                                                <div class="glyphicon glyphicon-star"></div>
+                                          </div>
+                                    </div>
+                        </div> 
+                        </div>
+                        </div>      
+                  </div>  
+                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card">
+                              <div class="card-body" style="margin:15px; border-radius: 15px;">
+                        <div class="txthover">
+                              <img src="./image/beamer.jpg" alt="car8">
+                                    <div class="txtcontent">
+                                          <div class="stars">
+                                                <div class="glyphicon glyphicon-star"></div>
+                                                <div class="glyphicon glyphicon-star"></div>
+                                                <div class="glyphicon glyphicon-star"></div>
+                                          </div>
+                                          <div class="simpletxt">
+                                                <h3 class="name">BMW</h3>
+                                                <p>BMW M5 Competition
+                                                </p>
+                                                <h4 class="price">60,260 CAD</h4>
+                                                <button onclick="carDetails('./image/beamer.jpg.jpg','60,260 CAD','BMW')">READ MORE</button>
+                                                <div class="wishtxt">
+                                                      <p class="paragraph1"> Add to Wishlist <span class="glyphicon glyphicon-heart"></span> </p>
+                                                      <p class="paragraph2">Compare <span class="icon"><img src="./image/compicon.png" alt="compicon"></span></p>
+                                                </div>
+                                          </div>
+                                          <div class="stars2">
+                                                <div class="glyphicon glyphicon-star"></div>
+                                                <div class="glyphicon glyphicon-star"></div>
+                                                <div class="glyphicon glyphicon-star"></div>
+                                          </div>
+                                    </div>
+                        </div> 
+                        </div>
+                        </div>      
+                  </div> 
+                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card">
+                              <div class="card-body" style="margin:15px; border-radius: 15px;">
+                        <div class="txthover">
+                              <img src="./image/sti-impreza.jpg" alt="car8">
+                                    <div class="txtcontent">
+                                          <div class="stars">
+                                                <div class="glyphicon glyphicon-star"></div>
+                                                <div class="glyphicon glyphicon-star"></div>
+                                                <div class="glyphicon glyphicon-star"></div>
+                                          </div>
+                                          <div class="simpletxt">
+                                                <h3 class="name">Impreza</h3>
+                                                <p>STI Impreza
+                                                </p>
+                                                <h4 class="price">60,260 CAD</h4>
+                                                <button onclick="carDetails('./image/sti-impreza.jpg','60,260 CAD','Impreza')">READ MORE</button>
+                                                <div class="wishtxt">
+                                                      <p class="paragraph1"> Add to Wishlist <span class="glyphicon glyphicon-heart"></span> </p>
+                                                      <p class="paragraph2">Compare <span class="icon"><img src="./image/compicon.png" alt="compicon"></span></p>
+                                                </div>
+                                          </div>
+                                          <div class="stars2">
+                                                <div class="glyphicon glyphicon-star"></div>
+                                                <div class="glyphicon glyphicon-star"></div>
+                                                <div class="glyphicon glyphicon-star"></div>
+                                          </div>
+                                    </div>
+                        </div> 
+                        </div>
+                        </div>      
+                  </div> 
+            </div>
+ 
+<!-- _______________________________News Letter ____________________-->
+      <div class="newslettercontent">
+            <div class="leftside">
+                  <img src="image/border.png" alt="border">
+                  <h1>NEWSLETTER</h1>
+                  <p>Subscribe to the COLLECTIONCARS mailing list to <br>
+                        receive updates on new arrivals, special offers <br>
+                        and other discount information.</p>
+            </div>
+            <div class="rightside">
+                  <img class="newsimage" src="image/newsletter.jpg" alt="newsletter">
+                  <input type="text" class="form-control" id="subemail" placeholder="EMAIL">
+                  <button>SUBSCRIBE</button>
+            </div>
+      </div>
+      <!-- ______________________________________________________Bottom Menu ______________________________-->
+      <div class="bottommenu">
+            <div class="bottomlogo">
+            <span class="dotlogo">&bullet;</span><img src="image/collectionlogo1.png" alt="logo1"><span class="dotlogo">&bullet;;</span>
+            </div>
+            <ul class="nav nav-tabs bottomlinks">
+                  <li role="presentation" ><a href="aboutus.html" role="button">ABOUT US</a></li>
+                  <li role="presentation"><a href="browsecars.html">CATEGORIES</a></li>
+                  <li role="presentation"><a href="appointment.html">PREORDERS</a></li>
+                  <li role="presentation"><a href="contact.html">CONTACT US</a></li>
+                  <li role="presentation"><a href="#/">RECEIVE OUR NEWSLETTER</a></li>
+            </ul>
+            <br>
+            
+             <img src="image/line.png" alt="line"> <br>
+             <div class="bottomsocial">
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                  <a href="#"><i class="fa fa-google-plus"></i></a>
+                  <a href="#"><i class="fa fa-pinterest"></i></a>
+            </div>
+                  <div class="footer">
+                        <div class="copyright">
+                          &copy; Copy right 2021 | <a href="#">Privacy </a>| <a href="#">Policy</a>
+                        </div>
+                  
+                  </div>
+      </div>
+</div>
+<script type="text/javascript" src="source/bootstrap-3.3.6-dist/js/jquery.js"></script>
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script type="text/javascript" src="source/js/cars.js"></script>
+<script type="text/javascript" src="source/js/isotope.js"></script>
+<script type="text/javascript" src="source/js/myscript.js"></script> 
+<script type="text/javascript" src="source/bootstrap-3.3.6-dist/js/bootstrap.js"></script>
+<script>
+     function carDetails(link,price,name){
+     
+                      const details = {
+                            link: link,
+                            price: price,
+                            name: name
+                      } 
+                      
+                      localStorage.clear();
+                      localStorage.clear();
+			localStorage.setItem('details', JSON.stringify(details));
+                      location.href = "details.html"
+
+     }
+
+    
+            const username = localStorage.getItem('username')
+  
+            if('username' in localStorage){
+                  document.getElementById('user').innerHTML = `<li>Welcome  ${username}</li>`
+            }else{
+                  document.getElementById('user').innerHTML = `<li><a href="signup.html"><span class="register">Login</span></a></li>
+                  <li><a href=""><span class="register">Register</span></a></li>
+                  `  
+            }
+          
+
+    
+
+</script>
+</body>
+</html>
+
+

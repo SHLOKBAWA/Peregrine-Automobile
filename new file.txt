@@ -1,0 +1,35 @@
+<div class="allcontain">
+            <div class="carworth">
+                    <div class="leftside">
+                        <img id="image_border" src="image/border-2.png" alt="border">
+                            <div class="contact-form">
+                                <h1>Cost calculator</h1>
+                                    <div class="form-group group-coustume">
+                                        <div class="mycarworth">
+                                            <li><a class="btn dropdown-toggle btn-costume"  id="ymake" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">CAR MAKE<span class="glyphicon glyphicon-chevron-down downicon"></span></a>
+                                                <ul class="dropdown-menu" id="mydd1">
+                                                  <li><a href="#">MERCEDES</a></li>
+                                                  <li><a href="#">PORSCHE</a></li>
+                                                  <li><a href="#">FORD</a></li>
+                                                  <li><a href="#">ALFA-ROMEO</a></li>
+                                                </ul>
+                                            </li>
+                                            <br>
+                                            <li><a class="btn dropdown-toggle btn-costume"  id="cmodel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">MODEL<span class="glyphicon glyphicon-chevron-down downicon"></span></a>
+                                                <ul class="dropdown-menu" id="mydd1">
+                                                  <li><a href="#">BENZ</a></li>
+                                                  <li><a href="#">911</a></li>
+                                                  <li><a href="#">MUSTANG</a></li>
+                                                  <li><a href="#">GIULIA</a></li>
+                                                </ul>
+                                            </li><br>
+                                            <li><a class="btn dropdown-toggle btn-costume"  id="ymake" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">YEAR MAKE<span class="glyphicon glyphicon-chevron-down downicon"></span></a>
+                                                <ul class="dropdown-menu" id="mydd1">
+                                                  <li><a href="#">1980</a></li>
+                                                  <li><a href="#">1990</a></li>
+                                                  <li><a href="#">2000</a></li>
+                                                  <li><a href="#">2010</a></li>
+                                                </ul>
+                                            </li><br>
+                                        </div>
+                                        

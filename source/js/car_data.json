@@ -1,0 +1,94 @@
+[
+{
+        "name": "Rolls Royce Phantom II",
+        "age": "EPIC",
+        "minAge": "1999",
+        "maxAge":"2000",
+        "price": "1000",
+        "kmDriven":"5000",
+        "image": "image/car1.jpg"
+},
+{
+    "name": "Porsche 912",
+    "age": "NEW",
+    "minAge": "2000",
+    "maxAge":"2000",
+    "price": "30000",
+    "kmDriven":"5000",
+    "image": "image/car2.jpg"
+},
+{
+    "name": "Ford Mustang",
+    "age": "NEW",
+    "minAge": "1999",
+    "maxAge":"2000",
+    "price": "43090",
+    "kmDriven":"5000",
+    "image": "image/car3.jpg"
+},
+{
+    "name": "Jaguar XK150",
+    "age": "OLD",
+    "minAge": "1999",
+    "maxAge":"1999",
+    "price": "69420",
+    "kmDriven":"5000",
+    "image": "image/car4.jpg"
+},
+{
+    "name": "Porsche 550",
+    "age": "OLD",
+    "minAge": "1999",
+    "maxAge":"1999",
+    "price": "41200",
+    "kmDriven":"5000",
+    "image": "image/car5.jpg"
+},
+{
+    "name": "Porche 911 Singer",
+    "age": "NEW",
+    "minAge": "",
+    "maxAge":"",
+    "price": "1000",
+    "kmDriven":"5000",
+    "image": "image/car6.jpg"
+},
+{
+    "name": "Jaguar E-Type",
+    "age": "NEW",
+    "minAge": "",
+    "maxAge":"",
+    "price": "3000",
+    "kmDriven":"5000",
+    "image": "image/car7.jpg"
+},
+{
+    "name": "Mercedes-Benz S-Class",
+    "age": "OLD",
+    "minAge": "",
+    "maxAge":"",
+    "price": "57260",
+    "kmDriven":"5000",
+    "image": "image/car8.jpg"
+},
+{
+    "name": "Camari",
+    "age": "OLD",
+    "minAge": "",
+    "maxAge":"",
+    "price": "1000",
+    "kmDriven":"5000",
+    "image": "image/camaro.jpg"
+},
+{
+    "name": "Supra Class Car",
+    "age": "OLD",
+    "minAge": "1999",
+    "maxAge":"2000",
+    "price": "2000",
+    "kmDriven":"90000",
+    "image": "image/supra.jpg"
+}
+   
+
+]
